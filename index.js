@@ -246,9 +246,7 @@ If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
 function get20s(arr){
-  const yearsAlive = artists.years.split("-")
-  if( yearsAlive > 1900)
-  return arr
+  
   
 }
 
@@ -312,8 +310,7 @@ For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte
 
 function lotsOfArt(arr, paintings){
   
-  if( arr.paintings.filter > 100)
-  return arr
+  
 }
 console.log(lotsOfArt(artists))
 /* ***** END OF TASKS ***** */
