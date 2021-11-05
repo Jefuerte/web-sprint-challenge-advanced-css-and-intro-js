@@ -245,7 +245,10 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(arr, year1, year2) {
+function get20s(arr){
+  const yearsAlive = artists.years.split("-")
+  if( yearsAlive > 1900)
+  return arr
   
 }
 
@@ -307,9 +310,9 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(arr){
+function lotsOfArt(arr, paintings){
   
-  if( arr > 100)
+  if( arr.paintings.filter > 100)
   return arr
 }
 console.log(lotsOfArt(artists))
