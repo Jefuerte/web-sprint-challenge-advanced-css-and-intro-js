@@ -307,11 +307,12 @@ Use lotsOfArt to do the following:
 
 For example lotsOfArt(artists); will return ["Amedeo Modigliani", "Rene Magritte", ... "Albrecht Dürer"]*/
 
-function lotsOfArt(array){
- 
-  }
-
-
+function lotsOfArt(arr){
+  
+  if( arr > 100)
+  return arr
+}
+console.log(lotsOfArt(artists))
 /* ***** END OF TASKS ***** */
 
 
